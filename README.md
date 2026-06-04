@@ -54,8 +54,8 @@ src-tauri/target/release/bundle/nsis/
 
 可以在 GitHub Releases 下载最新安装包：
 
-- Windows MSI：`环境配置工具_1.0.4_x64_zh-CN.msi`
-- Windows 安装程序：`环境配置工具_1.0.4_x64-setup.exe`
+- Windows MSI：`dev-env-manager_1.0.4_x64_zh-CN.msi`
+- Windows 安装程序：`dev-env-manager_1.0.4_x64-setup.exe`
 - 免安装可执行文件：`dev-env-manager.exe`
 
 ## 项目结构
