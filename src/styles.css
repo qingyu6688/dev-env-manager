@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f8ff;
+  color: #0f172a;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: #f4f8ff;
+}
+
+.header-brand {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  min-width: 248px;
+  height: 52px;
+  padding: 0 14px;
+  background: #0f6bda;
+  border-radius: 8px;
+  color: #ffffff;
+}
+
+.brand-mark {
+  width: 34px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8px;
+}
+
+.brand-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.brand-subtitle {
+  color: #d9ecff;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.app-header {
+  height: 76px;
+  padding: 0 28px;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid #d6e6fb;
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  box-shadow: 0 8px 24px rgba(15, 107, 218, 0.08);
+}
+
+.top-nav {
+  flex: 1;
+  min-width: 0;
+  background: transparent;
+  border-bottom: 0;
+}
+
+.top-nav.ant-menu-horizontal {
+  line-height: 44px;
+}
+
+.top-nav .ant-menu-item {
+  height: 44px;
+  margin-inline: 4px;
+  padding-inline: 18px;
+  color: #475569;
+  border-radius: 6px;
+}
+
+.top-nav .ant-menu-item:hover,
+.top-nav .ant-menu-item-selected {
+  color: #0f6bda !important;
+  background: #eaf4ff !important;
+}
+
+.top-nav .ant-menu-item::after {
+  border-bottom-color: transparent !important;
+}
+
+.app-header .ant-btn {
+  height: 38px;
+  border-radius: 6px;
+}
+
+.app-content {
+  padding: 26px 32px 32px;
+  overflow: auto;
+}
+
+.page-title-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding: 20px 22px;
+  background: #ffffff;
+  border: 1px solid #d6e6fb;
+  border-radius: 8px;
+  box-shadow: 0 12px 30px rgba(15, 107, 218, 0.08);
+}
+
+.page-title-main {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.page-icon {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #0f6bda;
+  background: #eaf4ff;
+  border: 1px solid #cfe4ff;
+  border-radius: 8px;
+}
+
+.page-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.page-title-bar h3 {
+  margin: 0 0 4px;
+}
+
+.main-grid {
+  margin-top: 16px;
+}
+
+.ant-card {
+  border-color: #d6e6fb;
+  background: #ffffff;
+  box-shadow: 0 10px 24px rgba(15, 107, 218, 0.06);
+}
+
+.ant-card-head {
+  min-height: 54px;
+  border-bottom-color: #e4eefb;
+}
+
+.ant-card-head-title {
+  color: #0f172a;
+  font-weight: 700;
+}
+
+.stat-card .ant-card-body {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+}
+
+.stat-icon {
+  width: 42px;
+  height: 42px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.stat-icon-blue {
+  color: #0f6bda;
+  background: #eaf4ff;
+}
+
+.stat-icon-green {
+  color: #15803d;
+  background: #e8f7ee;
+}
+
+.stat-icon-amber {
+  color: #b45309;
+  background: #fff4df;
+}
+
+.stat-icon-indigo {
+  color: #4338ca;
+  background: #eef2ff;
+}
+
+.stat-card .ant-statistic-title {
+  margin-bottom: 2px;
+  color: #64748b;
+}
+
+.stat-card .ant-statistic-content {
+  color: #0f172a;
+}
+
+.data-card {
+  overflow: hidden;
+}
+
+.ant-table-cell {
+  vertical-align: middle;
+}
+
+.ant-table-thead > tr > th {
+  background: #f5f9ff !important;
+  color: #334155 !important;
+  font-weight: 700 !important;
+}
+
+.ant-table-tbody > tr:hover > td {
+  background: #f8fbff !important;
+}
+
+.ant-tag {
+  border-radius: 6px;
+}
+
+.ant-btn {
+  border-radius: 6px;
+}
+
+.version-text {
+  display: inline-block;
+  max-width: 220px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.install-log {
+  min-height: 360px;
+  max-height: 360px;
+  margin: 0;
+  padding: 14px;
+  overflow: auto;
+  white-space: pre-wrap;
+  background: #082f6f;
+  color: #eaf4ff;
+  border-radius: 6px;
+  font-size: 12px;
+  line-height: 20px;
+  border: 1px solid #0f6bda;
+}
+
+.key-form {
+  padding-top: 8px;
+}
